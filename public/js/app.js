@@ -3,8 +3,6 @@
 
   "use strict";
 
-  var x = 0;
-
   var module = angular.module("pizzaApp", ["ngRoute"]);
 
   module.config(function ($routeProvider) {
@@ -56,6 +54,9 @@
     }, {
       num: 5,
       name: "Deliver Pie"
+    },{
+      num: 6,
+      name: "Collect money"
     }];
 
     status.currentStep = 2;
